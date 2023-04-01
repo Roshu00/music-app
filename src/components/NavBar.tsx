@@ -131,6 +131,7 @@ export const NavBar = () => {
                 >
                   <span className="sr-only">Open user menu</span>
                   <Image
+                    onClick={() => setOpened((prev) => !prev)}
                     width={30}
                     height={30}
                     className="h-8 w-8 rounded-full"
