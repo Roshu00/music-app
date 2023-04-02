@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 
 export const NavBar = () => {
-  const [opened, setOpened] = useState(false);
   return (
     <nav className="bg-gray-800 p-5 flex justify-center items-center">
       <div className=" flex w-96 gap-2 border border-solid border-neutral-300 rounded-md bg-transparent p-2 text-white items-center">
